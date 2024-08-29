@@ -1,0 +1,66 @@
+.todos_container{
+    display: flex;
+    height: 100%;
+}
+.all_undone_todos{
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    flex: 1;
+}
+
+.sidebarContainer{
+    background-color: lightgray;
+    width: 15%;
+}
+
+
+.all_undone_todos li{
+    list-style: none;
+}
+
+.all_undone_todos ul{
+    padding-left: 0
+}
+
+.all_undone_todos p{
+    margin-top: 0;
+    display: inline;
+}
+
+.all_undone_todos .listitems{
+    padding-bottom: 1.5em;
+    padding-top: 1.2em;
+    border-bottom-style: solid;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+}
+
+
+.new_todo_container{
+    padding-bottom: 1.5em;
+    padding-top: 1.2em;
+}
+
+.new_todo_container textarea{
+    width: 20em;
+    height: 7em; /* Adjust this value to make the textarea taller */
+    resize: vertical;
+    padding: 0.5em;
+    font-size: 1em;
+    font-family:Helvetica;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 1em;
+}
+
+
+.new_todo_container button{
+    border-radius: 0.5em;
+    border-width: 0.05em;
+    height: 2em;
+    background-color: red;
+}
+

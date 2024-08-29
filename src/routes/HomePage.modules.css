@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.home_container{
+    display: flex;
+    height: 100%;
+}
+
+.text_container{
+    width: 100%;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 300;
+    padding-bottom: 2em;
+    margin-top: 14em;
+}
+
+
+.sidebarContainer{
+    background-color: lightgray;
+    width: 15%;
+}

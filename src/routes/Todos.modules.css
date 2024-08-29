@@ -1,0 +1,140 @@
+.todos_container{
+    display: flex;
+    height: 100%;
+}
+
+h1, .category_list, .add_category{
+    text-align: center;
+}
+.all_undone_todos{
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    flex: 1;
+}
+
+.sidebarContainer{
+    background-color: lightgray;
+    width: 15%;
+}
+
+.trashbuttons{
+    margin-left: 0.2em;
+    border-radius: 0.5em;
+    border-width: 0.001em;
+    
+}
+
+.category_list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list_category{
+    display: inline;
+    margin-right: 1em;
+}
+
+li.list_category::after{
+    content: "•";
+    margin-left: 1em;
+}
+
+.all_undone_todos .todo_list li{
+    list-style: none;
+}
+
+.all_undone_todos .todo_list{
+    padding-left: 0
+}
+
+.all_undone_todos p{
+    margin-top: 0;
+    display: inline;
+}
+
+
+
+.all_undone_todos .listitems{
+    padding-bottom: 1.5em;
+    padding-top: 1.2em;
+    border-bottom-style: solid;
+    border-width: 0.05em;
+    width: 50%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em
+}
+
+
+.new_todo_container{
+    padding-bottom: 1.5em;
+}
+
+.new_todo_container textarea{
+    width: 20em;
+    height: 7em; /* Adjust this value to make the textarea taller */
+    resize: vertical;
+    padding: 0.5em;
+    font-size: 1em;
+    font-family:Helvetica;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 1em;
+}
+
+.listitems a{
+    text-decoration-line: underline;
+}
+.new_todo_container button{
+    border-radius: 0.5em;
+    border-width: 0.05em;
+    height: 2em;
+    background-color: red;
+}
+
+#categories{
+    margin-bottom: 2em;
+}
+
+.select_container{
+    padding-bottom: 1em;
+}
+
+#categories_select{
+    margin-left: 1em;
+    height: 2em;
+}
+
+#category_input{
+  
+    height: 2em;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    border-width: 0.01em;
+
+}
+
+#category_button{
+    border-radius: 0.5em;
+    border-width: 0.05em;
+    height: 2em;
+    background-color: red;
+}
+
+
+.new_todo_container h2{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.new_todo_container{
+    margin-top: 0;
+}
+
+
+a:visited{
+    color: blue
+}

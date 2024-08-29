@@ -1,0 +1,56 @@
+.single_container{
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sidebarContainer{
+    background-color: lightgray;
+    width: 15%;
+}
+
+
+textarea{
+    width: 20em;
+    height: 7em; /* Adjust this value to make the textarea taller */
+    resize: vertical;
+    padding: 0.5em;
+    font-size: 1em;
+    font-family:Helvetica;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: lightgray;
+    margin-bottom: 0;
+}
+
+
+
+
+.button_container{
+    padding-left: 1.5em;
+}
+
+.button_container button, .select_container button{
+    margin: 2em;
+    margin-top: 0;
+    border-radius: 0.5em;
+    border-width: 0.05em;
+    height: 2em;
+    background-color: lightcyan;
+
+}
+
+
+.select_container *{
+    margin-right: 3em;
+    margin-left: 0;
+}
+
+.select_container p{
+    margin-right: 1.5em;
+}
